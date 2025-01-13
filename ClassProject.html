@@ -14,7 +14,7 @@
 
 <div class="black_border">
 
-    <form name="form_1" action="index.html">
+    <form name="form_1" onsubmit="validate()">
 
 
         <div class="logo">
@@ -29,14 +29,14 @@
             <div class="input1">
 
                 <label for="firstname"> First Name: </label>
-                <input type="text" name="firstname" id="firstname" placeholder="First Name">
+                <input type="text" name="firstname" id="firstname" placeholder="First Name" required>
 
             </div>
 
             <div class="input2">
 
                 <label for="lastname">Last Name: </label>
-                <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+                <input type="text" name="lastname" id="lastname" placeholder="Last Name" required>
                 
             </div>
            
@@ -44,7 +44,7 @@
             <div class="input3">
 
                 <label for="address">Address:</label> 
-                <input type="text" name="address" id="address" placeholder="Address"> 
+                <input type="text" name="address" id="address" placeholder="Address" required> 
                 
             </div>
             
@@ -61,7 +61,7 @@
             <div class="input5">
 
                  <label for="lastname">Email Id: </label>
-                 <input type="email" name="Email" id="email" placeholder="example@gmail.com"> 
+                 <input type="email" name="Email" id="email" placeholder="example@gmail.com" required> 
 
             </div>
 
@@ -69,7 +69,7 @@
             <div class="input6">
 
                 <label for="mobile"> Mobile:</label> 
-                <input type="text" name="mobile" id="mobile_number" placeholder="071 466 3315">
+                <input type="text" name="mobile" id="mobile_number" placeholder="071 466 3315" required>
                 
             </div>
            
@@ -77,7 +77,7 @@
             <div class="input7">
 
                 <label for="location">Location: </label>
-                <select id="local_city">
+                <select id="local_city" required>
                 <option value="Select location">Select location</option>
                 <option value="Boardwalk">Boardwalk</option> 
                 <option value="Brooklyn">Brooklyn</option> 
