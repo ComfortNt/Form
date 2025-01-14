@@ -15,7 +15,7 @@ const arearegex = /Select location/ig;
 
 const validate = () => {
     
-
+    
     if(!nameregex.test(user_name.value)) {
         console.error("Invalid username");
         window.alert("Input a correct username");
